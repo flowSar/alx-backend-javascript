@@ -1,6 +1,6 @@
 const updateUniqueItems = (groceries) => {
   if (!(groceries instanceof Map)) {
-    throw new Error("Cannot process");
+    throw new Error('Cannot process');
   }
 
   groceries.forEach((quantity, item) => {

@@ -7,7 +7,7 @@ const updateStudentGradeByCity = (StudentList, city, newGrades) => {
       if (studentGrade) {
         student.grade = studentGrade.grade;
       } else {
-        student.grade = "N/A";
+        student.grade = 'N/A';
       }
       return student;
     }
