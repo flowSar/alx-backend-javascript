@@ -1,7 +1,5 @@
-const getStudentIdsSum = (Studentslist) => {
-  let sum = 0;
-  Studentslist.map((student) => (sum += student.id));
-  return sum;
+const getStudentIdsSum = (studentsList) => {
+  return studentsList.reduce((sum, student) => sum + student.id, 0);
 };
 
 export default getStudentIdsSum;
